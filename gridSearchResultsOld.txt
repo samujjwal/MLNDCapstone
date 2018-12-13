@@ -1,0 +1,248 @@
+Best: 0.773387 using {'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>} for model naiveBayesTF
+Parameters: {'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.791635 (0.000338)
+Validation Accuracy: 0.761903 (0.000753)
+
+Parameters: {'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.897952 (0.000171)
+Validation Accuracy: 0.773387 (0.000605)
+
+Best: 0.774676 using {'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>} for model naiveBayesTFIDF
+Parameters: {'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.793393 (0.000444)
+Validation Accuracy: 0.756239 (0.000967)
+
+Parameters: {'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.891662 (0.000158)
+Validation Accuracy: 0.774676 (0.000826)
+
+Best: 0.787084 using {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>} for model logitTF
+Parameters: {'clf__C': 0.001, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.741906 (0.000230)
+Validation Accuracy: 0.741165 (0.000462)
+
+Parameters: {'clf__C': 0.001, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.746382 (0.000201)
+Validation Accuracy: 0.744547 (0.000505)
+
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.767688 (0.000299)
+Validation Accuracy: 0.764907 (0.000512)
+
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.783369 (0.000102)
+Validation Accuracy: 0.773762 (0.000383)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.782393 (0.000419)
+Validation Accuracy: 0.772506 (0.000635)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.836953 (0.000025)
+Validation Accuracy: 0.787084 (0.000499)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.805111 (0.000326)
+Validation Accuracy: 0.771998 (0.000618)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.940981 (0.000103)
+Validation Accuracy: 0.785523 (0.000535)
+
+Parameters: {'clf__C': 10, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.827279 (0.000355)
+Validation Accuracy: 0.765825 (0.000606)
+
+Parameters: {'clf__C': 10, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.972716 (0.003844)
+Validation Accuracy: 0.777163 (0.002312)
+
+Best: 0.788538 using {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>} for model logitTFIDF
+Parameters: {'clf__C': 0.001, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.728020 (0.000370)
+Validation Accuracy: 0.728115 (0.000370)
+
+Parameters: {'clf__C': 0.001, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.718773 (0.000454)
+Validation Accuracy: 0.720421 (0.000766)
+
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.759664 (0.000306)
+Validation Accuracy: 0.757900 (0.000734)
+
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.756622 (0.000093)
+Validation Accuracy: 0.752387 (0.000389)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.775982 (0.000379)
+Validation Accuracy: 0.770371 (0.000747)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.788121 (0.000165)
+Validation Accuracy: 0.774782 (0.000396)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.795107 (0.000259)
+Validation Accuracy: 0.773089 (0.000622)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.853853 (0.000166)
+Validation Accuracy: 0.788538 (0.000506)
+
+Parameters: {'clf__C': 10, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.823082 (0.000315)
+Validation Accuracy: 0.766971 (0.000492)
+
+Parameters: {'clf__C': 10, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.962403 (0.000142)
+Validation Accuracy: 0.782203 (0.000709)
+
+Best: 0.787099 using {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>} for model svmTF
+Parameters: {'clf__C': 0.001, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.768074 (0.000461)
+Validation Accuracy: 0.764971 (0.000580)
+
+Parameters: {'clf__C': 0.001, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.783589 (0.000179)
+Validation Accuracy: 0.773918 (0.000349)
+
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.782083 (0.000398)
+Validation Accuracy: 0.772070 (0.000754)
+
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.838636 (0.000109)
+Validation Accuracy: 0.787099 (0.000442)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.805357 (0.000380)
+Validation Accuracy: 0.771278 (0.000637)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.945979 (0.000069)
+Validation Accuracy: 0.784307 (0.000399)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.826479 (0.000394)
+Validation Accuracy: 0.764976 (0.000584)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.979254 (0.000037)
+Validation Accuracy: 0.766414 (0.000675)
+
+Parameters: {'clf__C': 10, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.827479 (0.000325)
+Validation Accuracy: 0.761451 (0.000823)
+
+Parameters: {'clf__C': 10, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.983747 (0.000060)
+Validation Accuracy: 0.744282 (0.000695)
+
+Best: 0.788732 using {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>} for model svmTFIDF
+Parameters: {'clf__C': 0.001, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.759271 (0.000338)
+Validation Accuracy: 0.757610 (0.000671)
+
+Parameters: {'clf__C': 0.001, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.755240 (0.000160)
+Validation Accuracy: 0.751435 (0.000360)
+
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.775632 (0.000429)
+Validation Accuracy: 0.770141 (0.000818)
+
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.787645 (0.000126)
+Validation Accuracy: 0.774760 (0.000520)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.795033 (0.000423)
+Validation Accuracy: 0.772479 (0.000628)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.855943 (0.000094)
+Validation Accuracy: 0.788732 (0.000428)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.822800 (0.000376)
+Validation Accuracy: 0.765854 (0.000480)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.966333 (0.000141)
+Validation Accuracy: 0.779436 (0.000758)
+
+Parameters: {'clf__C': 10, 'clf__random_state': 42, 'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.826730 (0.000357)
+Validation Accuracy: 0.759093 (0.000464)
+
+Parameters: {'clf__C': 10, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12412e048>}
+Train Accuracy: 0.982239 (0.000045)
+Validation Accuracy: 0.751136 (0.000597)
+
+Best: 0.778537 using {'batch_size': 1000, 'embedding_size': 16, 'epochs': 2, 'lstm_cell': 100} for model lstm
+Parameters: {'batch_size': 1000, 'embedding_size': 8, 'epochs': 1, 'lstm_cell': 50}
+Train Accuracy: 0.792925 (0.000429)
+Validation Accuracy: 0.775740 (0.000671)
+
+Parameters: {'batch_size': 1000, 'embedding_size': 8, 'epochs': 1, 'lstm_cell': 100}
+Train Accuracy: 0.794284 (0.000364)
+Validation Accuracy: 0.776336 (0.000584)
+
+Parameters: {'batch_size': 1000, 'embedding_size': 8, 'epochs': 2, 'lstm_cell': 50}
+Train Accuracy: 0.809900 (0.000743)
+Validation Accuracy: 0.777254 (0.000799)
+
+Parameters: {'batch_size': 1000, 'embedding_size': 8, 'epochs': 2, 'lstm_cell': 100}
+Train Accuracy: 0.812209 (0.000539)
+Validation Accuracy: 0.777864 (0.000733)
+
+Parameters: {'batch_size': 1000, 'embedding_size': 16, 'epochs': 1, 'lstm_cell': 50}
+Train Accuracy: 0.796217 (0.000972)
+Validation Accuracy: 0.777636 (0.000127)
+
+Parameters: {'batch_size': 1000, 'embedding_size': 16, 'epochs': 1, 'lstm_cell': 100}
+Train Accuracy: 0.797087 (0.000389)
+Validation Accuracy: 0.777623 (0.000367)
+
+Parameters: {'batch_size': 1000, 'embedding_size': 16, 'epochs': 2, 'lstm_cell': 50}
+Train Accuracy: 0.813450 (0.000176)
+Validation Accuracy: 0.777945 (0.000589)
+
+Parameters: {'batch_size': 1000, 'embedding_size': 16, 'epochs': 2, 'lstm_cell': 100}
+Train Accuracy: 0.815362 (0.000326)
+Validation Accuracy: 0.778537 (0.000421)
+
+Best: 0.777139 using {'batch_size': 1000, 'dropout_rate': 0.3, 'embedding_size': 16, 'epochs': 1} for model cnn
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.3, 'embedding_size': 8, 'epochs': 1}
+Train Accuracy: 0.798424 (0.000203)
+Validation Accuracy: 0.775387 (0.001437)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.3, 'embedding_size': 8, 'epochs': 2}
+Train Accuracy: 0.814956 (0.000251)
+Validation Accuracy: 0.776637 (0.000235)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.3, 'embedding_size': 16, 'epochs': 1}
+Train Accuracy: 0.801090 (0.000573)
+Validation Accuracy: 0.777139 (0.000371)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.3, 'embedding_size': 16, 'epochs': 2}
+Train Accuracy: 0.819144 (0.001064)
+Validation Accuracy: 0.776297 (0.000307)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.6, 'embedding_size': 8, 'epochs': 1}
+Train Accuracy: 0.797432 (0.000639)
+Validation Accuracy: 0.775856 (0.000356)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.6, 'embedding_size': 8, 'epochs': 2}
+Train Accuracy: 0.812424 (0.000486)
+Validation Accuracy: 0.775336 (0.000314)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.6, 'embedding_size': 16, 'epochs': 1}
+Train Accuracy: 0.799480 (0.000548)
+Validation Accuracy: 0.776467 (0.000134)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.6, 'embedding_size': 16, 'epochs': 2}
+Train Accuracy: 0.815697 (0.000520)
+Validation Accuracy: 0.774380 (0.000894)
+

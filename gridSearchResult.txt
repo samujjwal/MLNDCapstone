@@ -1,0 +1,96 @@
+Best: 0.764217 using {'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>} for model naiveBayesTF
+Parameters: {'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.792263 (0.001506)
+Validation Accuracy: 0.755514 (0.001127)
+
+Parameters: {'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.898238 (0.000636)
+Validation Accuracy: 0.764217 (0.001239)
+
+Best: 0.765830 using {'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>} for model naiveBayesTFIDF
+Parameters: {'vect__ngram_range': (1, 1), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.793988 (0.001024)
+Validation Accuracy: 0.748737 (0.001877)
+
+Parameters: {'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.891944 (0.000720)
+Validation Accuracy: 0.765830 (0.001415)
+
+Best: 0.780695 using {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>} for model logitTF
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.784173 (0.001094)
+Validation Accuracy: 0.769455 (0.001202)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.837538 (0.000609)
+Validation Accuracy: 0.780695 (0.001888)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.941340 (0.000314)
+Validation Accuracy: 0.777202 (0.001798)
+
+Best: 0.782027 using {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>} for model logitTFIDF
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.756897 (0.001027)
+Validation Accuracy: 0.749247 (0.001309)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.788745 (0.000932)
+Validation Accuracy: 0.770424 (0.002385)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.854513 (0.000613)
+Validation Accuracy: 0.782027 (0.002234)
+
+Best: 0.780621 using {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>} for model svmTF
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.839261 (0.000567)
+Validation Accuracy: 0.780621 (0.001853)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.946150 (0.000433)
+Validation Accuracy: 0.775877 (0.001647)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.979264 (0.000310)
+Validation Accuracy: 0.757878 (0.000993)
+
+Best: 0.782117 using {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>} for model svmTFIDF
+Parameters: {'clf__C': 0.01, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.788337 (0.000933)
+Validation Accuracy: 0.770537 (0.002376)
+
+Parameters: {'clf__C': 0.1, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.856726 (0.000669)
+Validation Accuracy: 0.782117 (0.002308)
+
+Parameters: {'clf__C': 1.0, 'clf__random_state': 42, 'vect__ngram_range': (1, 2), 'vect__preprocessor': <function preProcessWithTokens at 0x12e231f28>}
+Train Accuracy: 0.966372 (0.000393)
+Validation Accuracy: 0.770543 (0.001655)
+
+Best: 0.609803 using {'batch_size': 1000, 'embedding_size': 16, 'epochs': 2, 'lstm_cell': 100, 'max_word_length': 34, 'total_words': 290992} for model lstm
+Parameters: {'batch_size': 1000, 'embedding_size': 16, 'epochs': 1, 'lstm_cell': 100, 'max_word_length': 34, 'total_words': 290992}
+Train Accuracy: 0.826087 (0.024041)
+Validation Accuracy: 0.587586 (0.128712)
+
+Parameters: {'batch_size': 1000, 'embedding_size': 16, 'epochs': 2, 'lstm_cell': 100, 'max_word_length': 34, 'total_words': 290992}
+Train Accuracy: 0.843234 (0.019959)
+Validation Accuracy: 0.609803 (0.114183)
+
+Best: 0.587616 using {'batch_size': 1000, 'dropout_rate': 0.6, 'embedding_size': 16, 'epochs': 2, 'max_word_length': 34, 'total_words': 290992} for model cnn
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.3, 'embedding_size': 16, 'epochs': 1, 'max_word_length': 34, 'total_words': 290992}
+Train Accuracy: 0.832109 (0.022085)
+Validation Accuracy: 0.584666 (0.132039)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.3, 'embedding_size': 16, 'epochs': 2, 'max_word_length': 34, 'total_words': 290992}
+Train Accuracy: 0.847940 (0.020433)
+Validation Accuracy: 0.581322 (0.133589)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.6, 'embedding_size': 16, 'epochs': 1, 'max_word_length': 34, 'total_words': 290992}
+Train Accuracy: 0.828984 (0.021959)
+Validation Accuracy: 0.572810 (0.145730)
+
+Parameters: {'batch_size': 1000, 'dropout_rate': 0.6, 'embedding_size': 16, 'epochs': 2, 'max_word_length': 34, 'total_words': 290992}
+Train Accuracy: 0.844998 (0.021490)
+Validation Accuracy: 0.587616 (0.128074)
+
